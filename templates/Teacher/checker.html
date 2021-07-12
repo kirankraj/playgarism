@@ -1,0 +1,39 @@
+{% load static %}
+{% include 'Teacher/header.html' %}
+<div class="mt-5 mb-5" style="height: 20px"></div>
+<section>
+    <div class="container">
+        <table class="table table-hover table-dark border-light">
+            <tr>
+                <th>SL No</th>
+                <th>Document</th>
+                <th>Doc Created Date</th>
+                <th>Duplication</th>
+                 <th>Doc Created Date</th>
+                <th>Status</th>
+                <th>Open/Download</th>
+                <th>Action</th>
+                {#      <th>Document</th>#}
+            </tr>
+            {% for i in data %}
+                <tr class="{% if i.status == 'Duplicated' %} bg-danger{% else %} bg-success {% endif %}">
+                    <td>{{ i.forloop }}</td>
+                    <td>{{ i.doc1 }}</td>
+                    <td>{{ i.doc1time }}</td>
+                    <td>{{ i.doc2 }}</td>
+                    <td>{{ i.doc2time }}</td>
+                    <td>{{ i.status }}</td>
+                    <td>
+                        <a target="_blank" href="static/document/{{ i.document }}">Open document</a>/
+                        <a download="" href="static/document/{{ i.document }}">Download document</a>
+                    </td>
+                <td><a href="/viewmore?filename={% if i.status == False %}{{ i.doc1 }}{% else %}{{ i.doc2 }}{% endif %}&isdup={{ i.status }}">
+                        View More..
+                    </a>
+                </td>
+                </tr>
+            {% endfor %}
+        </table>
+    </div>
+</section>
+{% include 'footer.html' %}

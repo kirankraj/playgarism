@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="44f4ffbe-d16b-43c3-a7ff-33865489054c" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="SQLite - db.sqlite3" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="SQLite - db.sqlite3" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="SQLite - db.sqlite3" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="SQLite - db.sqlite3" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
+        <item name="app_teacher: table" type="3d80ac25:SqliteImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="SQLite - db.sqlite3" type="feb32156:DbDataSourceImpl" />
+        <item name="collations" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1qFCCCTCqDJKLAPjslI1hbnXwAX" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="sqlite" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\boilpot\plagiarism\templates\principal" />
+      <recent name="F:\boilpot\plagiarism\templates\parent" />
+      <recent name="D:\E\WORKS\STUDENT\NEHRU\plagiarism\templates" />
+      <recent name="D:\E\WORKS\STUDENT\NEHRU\plagiarism\templates\Teacher" />
+      <recent name="D:\E\WORKS\STUDENT\NEHRU\plagiarism\static" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="plagiarism" type="Python.DjangoServer" factoryName="Django server">
+      <module name="plagiarism" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="44f4ffbe-d16b-43c3-a7ff-33865489054c" name="Default Changelist" comment="" />
+      <created>1616665820365</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1616665820365</updated>
+      <workItem from="1616665824165" duration="8950000" />
+      <workItem from="1616733921656" duration="16958000" />
+      <workItem from="1616758607753" duration="5874000" />
+      <workItem from="1616822410506" duration="15780000" />
+      <workItem from="1616994476478" duration="3182000" />
+      <workItem from="1616999467831" duration="8834000" />
+      <workItem from="1617090308688" duration="24006000" />
+      <workItem from="1617340608431" duration="2058000" />
+      <workItem from="1617345102989" duration="2921000" />
+      <workItem from="1617527123966" duration="4112000" />
+      <workItem from="1617555486389" duration="3871000" />
+      <workItem from="1617559622339" duration="4560000" />
+      <workItem from="1617586932977" duration="3420000" />
+      <workItem from="1617593605733" duration="2885000" />
+      <workItem from="1617601960425" duration="2717000" />
+      <workItem from="1617608598162" duration="1005000" />
+      <workItem from="1617611582065" duration="7874000" />
+      <workItem from="1617693016282" duration="461000" />
+      <workItem from="1617694044573" duration="60000" />
+      <workItem from="1617694143571" duration="645000" />
+      <workItem from="1617700199678" duration="1597000" />
+      <workItem from="1617702061889" duration="41000" />
+      <workItem from="1617704600780" duration="1176000" />
+      <workItem from="1617705852236" duration="1755000" />
+      <workItem from="1617707735430" duration="1751000" />
+      <workItem from="1617709566687" duration="84000" />
+      <workItem from="1617709757933" duration="1733000" />
+      <workItem from="1617711578228" duration="1771000" />
+      <workItem from="1617715666411" duration="1463000" />
+      <workItem from="1617724535080" duration="1764000" />
+      <workItem from="1617726354090" duration="1763000" />
+      <workItem from="1617728191054" duration="2017000" />
+      <workItem from="1617730268327" duration="498000" />
+      <workItem from="1618164712344" duration="706000" />
+      <workItem from="1618212536448" duration="365000" />
+      <workItem from="1619696895031" duration="1083000" />
+      <workItem from="1620199117837" duration="1105000" />
+      <workItem from="1626055582080" duration="2086000" />
+      <workItem from="1626058425476" duration="10000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="275" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1616673986285">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1616673986285" />
+    <state x="521" y="134" key="FileChooserDialogImpl" timestamp="1617712149172">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1616673943534" />
+    <state x="521" y="134" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1617712149172" />
+    <state x="595" y="2" width="322" height="379" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1617706616812">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="595" y="2" width="322" height="379" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/0.0.1536.824@0.0.1536.824" timestamp="1617706616812" />
+    <state x="349" y="67" key="com.intellij.database.dbimport.ImportDialog" timestamp="1617706476853">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="349" y="67" key="com.intellij.database.dbimport.ImportDialog/0.0.1536.824@0.0.1536.824" timestamp="1617706476853" />
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1618212535897">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1618212535897" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/common/__views.py</url>
+          <line>127</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

@@ -1,0 +1,28 @@
+{% load static %}
+{% include 'principal/header.html' %}
+{#<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">#}
+<section>
+<div class="container">
+<table class="table table-hover table-dark border-light">
+  <tr>
+       <th>Student id</th>
+    <th>Student Name</th>
+    <th>Email</th>
+  </tr>
+    {% for i in objs %}
+  <tr>
+  <td>{{i.id }}</td>
+    <td>{{i.name }}</td>
+      <td>{{ i.email }}</td>
+
+  </tr>
+    {% endfor %}
+</table>
+</div>
+</section>
+{% include 'footer.html' %}
+
+
+
+
+

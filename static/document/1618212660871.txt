@@ -1,0 +1,16 @@
+export class Product {
+    id:number;
+    name: string;
+    description:string;
+    price:number;
+    imageUrl:string;
+
+    constructor(id,name,description ='',price=0,imageUrl='2wCEAAkGBxITERMSERMVFRAVFxUWFRcXGBUXFhgXGxkWGBgaFRUYICghGBsnHRcXIjEiJSkrLi4xFx8zODMtNygtLisBCgoKDg0OFxAPFi0lHSAtLS0tKy0rMTctLy0tNysrLy0rKy8tLS8rLjctLy03LS0tNS0tNS0tLy0rKzg3NzcrK'){
+        this.id = id;
+        this.name =name;
+        this.description =description;
+        this.price =price;
+        this.imageUrl=imageUrl;
+
+    }
+}

@@ -1,0 +1,34 @@
+{% load static %}
+{% include 'Teacher/header.html' %}
+{#<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">#}
+<section>
+<div class="container">
+<table class="table table-hover table-dark border-light">
+  <tr>
+    <th>Student Name</th>
+    <th>Email</th>
+      <th>Document</th>
+      <th>Open/Download</th>
+{#      <th>Document</th>#}
+  </tr>
+    {% for i in model %}
+  <tr>
+    <td>{{i.user.name }}</td>
+      <td>{{ i.user.email }}</td>
+      <td>{{ i.document }}</td>
+    <td>
+        <a target="_blank" href="/static/document/{{ i.document }}">Open document</a>/
+        <a download="" href="/static/document/{{ i.document }}">Download document</a>
+    </td>
+
+  </tr>
+    {% endfor %}
+</table>
+</div>
+</section>
+{% include 'footer.html' %}
+
+
+
+
+

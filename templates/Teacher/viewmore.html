@@ -1,0 +1,51 @@
+{% load static %}
+{% include 'Teacher/header.html' %}
+{#<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">#}
+<section>
+    <div class="container">
+        <table class="table table-hover table-dark border-light">
+            <tr>
+                <th>Student Name</th>
+                <th>{{ data.user.name }}</th>
+
+
+            </tr>
+            <tr>
+                <th>Document Name</th>
+                <th>{{ data.document }}</th>
+
+            </tr>
+            <tr>
+                <th>Document Type</th>
+                <th>{{ isdup }}</th>
+
+            </tr>
+            </tr>
+            <tr>
+                <th>Document Status</th>
+                <th>{{ data.status }}</th>
+
+            </tr>
+            {% if data.status == 'Pending' %}
+             <tr>
+
+                    <th>Please Approve or Reject</th>
+
+                 <th>
+                     <a class="btn btn-primary" href="/approve?id={{ data.id }}&status=Approve">Approve</a>
+                     <a class="btn btn-danger" href="/approve?id={{ data.id }}&status=Reject">Reject</a>
+                 </th>
+
+
+            </tr>
+              {% endif %}
+
+        </table>
+    </div>
+</section>
+{% include 'footer.html' %}
+
+
+
+
+

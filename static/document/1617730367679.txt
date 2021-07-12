@@ -1,0 +1,6 @@
+python casting
+*************************************
+ data type conversion int to str
+      str to int
+
+classes object ,init,

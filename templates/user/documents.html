@@ -1,0 +1,36 @@
+{% load static %}
+{% include 'user/header.html' %}
+{#<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">#}
+<section>
+<div class="container">
+<table class="table table-hover table-dark border-light">
+  <tr>
+    <th>Teacher Name</th>
+
+      <th>Document</th>
+      <th>Open/Download</th>
+      <th>Status</th>
+{#      <th>Document</th>#}
+  </tr>
+    {% for i in model %}
+  <tr class="{% if i.status == 'Reject' %} bg-danger{% else %} bg-success {% endif %}">
+    <td>{{i.user.name }}</td>
+
+      <td>{{ i.document }}</td>
+    <td>
+        <a target="_blank" href="/static/document/{{ i.document }}">Open document</a>/
+        <a download="" href="/static/document/{{ i.document }}">Download document</a>
+    </td>
+  <td>{{i.status }}</td>
+
+  </tr>
+    {% endfor %}
+</table>
+</div>
+</section>
+{% include 'footer.html' %}
+
+
+
+
+

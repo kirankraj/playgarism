@@ -1,0 +1,23 @@
+{% load static %}
+{% include 'user/header.html' %}
+<section>
+<div class="container">
+    <div class="row">
+
+        <div class="col-md-6">
+            <form action="/save" method="post" enctype="multipart/form-data">
+                {% csrf_token %}
+                <input type="hidden" value="{{ request.session.user_id }}" name="user_id">
+                {{ form|safe }}
+                <input type="submit" value="REGISTER">
+            </form>
+
+        </div>
+
+
+
+    </div>
+
+</div>
+</section>
+  {% include 'footer.html' %}
